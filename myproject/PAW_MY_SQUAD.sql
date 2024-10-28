@@ -10,22 +10,22 @@
   --   WorkExperienceYears INT       -- Column for work experience in years
 -- );
 
--- Insert sample data into the 'Staff' table
--- INSERT INTO Staff (Name, Role, WorkExperienceYears) VALUES
--- ('Jose Mourinho', 'Trener główny', 2),
--- ('Fabrizio Romano', 'Rzecznik prasowy', 5),
--- ('Tommy Angelo', 'Trener przygotowania motorycznego', 5),
--- ('Paulie Lombardo', 'Trener przygotowania motorycznego', 4),
--- ('Vito Scaletta', 'Fizjoterapeuta', 2),
--- ('Joe Barbaro', 'Fizjoterapeuta', 2),
--- ('Mike Bruski', 'Trener Bramkarzy', 7),
--- ('Czesław Michniewicz', 'Asystent trenera', 5),
--- ('Vincenzo Ricci', 'Trener przygotowania mentalnego', 3),
--- ('Carlo Ancelotti', 'Drugi trener', 2);
+Insert sample data into the 'Staff' table
+INSERT INTO Staff (Name, Role, WorkExperienceYears) VALUES
+('Jose Mourinho', 'Trener główny', 2),
+('Fabrizio Romano', 'Rzecznik prasowy', 5),
+('Tommy Angelo', 'Trener przygotowania motorycznego', 5),
+('Paulie Lombardo', 'Trener przygotowania motorycznego', 4),
+('Vito Scaletta', 'Fizjoterapeuta', 2),
+('Joe Barbaro', 'Fizjoterapeuta', 2),
+('Mike Bruski', 'Trener Bramkarzy', 7),
+('Czesław Michniewicz', 'Asystent trenera', 5),
+('Vincenzo Ricci', 'Trener przygotowania mentalnego', 3),
+('Carlo Ancelotti', 'Drugi trener', 2);
 
--- Select all data from the 'Staff' table to display it
--- SELECT * FROM Staff;
--- Create a new table called 'Players'
+Select all data from the 'Staff' table to display it
+SELECT * FROM Staff;
+Create a new table called 'Players'
 CREATE TABLE Players (
     Name VARCHAR(255),           -- Column for player's name and surname
     Position VARCHAR(50),        -- Column for player's position
@@ -33,7 +33,7 @@ CREATE TABLE Players (
     Age INT                      -- Column for player's age
 );
 
--- Insert sample data into the 'Players' table
+Insert sample data into the 'Players' table
 INSERT INTO Players (Name, Position, Number, Age) VALUES
 ('Francesco Toldo', 'Bramkarz', 1, 39),
 ('Ivan Cordoba', 'Obrońca', 2, 34),
@@ -54,5 +54,5 @@ INSERT INTO Players (Name, Position, Number, Age) VALUES
 ('Goran Pandev', 'Napastnik', 27, 27),
 ('Mario Balotelli', 'Napastnik', 45, 19);
 
--- Select all data from the 'Players' table to display it
+Select all data from the 'Players' table to display it
 SELECT * FROM Players;
